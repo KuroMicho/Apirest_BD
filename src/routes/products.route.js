@@ -92,7 +92,7 @@ router.put('/:id', async (req, res) => {
 
     await db('products').where('id', id).update(data)
 
-    res.send('actualizado')
+    res.send('actualizando')
 })
 
 module.exports = router
